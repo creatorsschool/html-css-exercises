@@ -68,7 +68,10 @@ header {
   background: white;
   border-radius: 20px;
   box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
+  display: inline-block;
   padding: 20px;
+  vertical-align: top;
+  width: 300px;
 }
 
 #contact button {
@@ -79,6 +82,12 @@ header {
   color: red;
   padding: 20px 30px;
   transition-duration: 0.6s;
+}
+
+#map {
+  display: inline-block;
+  margin-right: 40px;
+  width: 700px;
 }
 
 footer {
