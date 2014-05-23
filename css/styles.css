@@ -6,10 +6,35 @@ body {
 header {
   background: #333;
   color: white;
+  left: 0;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#wrapper {
+  margin: 200px auto 0;
+  width: 1080px;
 }
 
 .main-menu ul {
   list-style: none;
+  padding: 0;
+}
+
+.main-menu li {
+  display: inline;
+}
+
+.main-menu li:not(:last-child) {
+  border-right: solid 1px #ccc;
+  margin-right: 10px;
+  padding-right: 10px;
 }
 
 .main-menu a {
@@ -30,11 +55,30 @@ header {
 
 .post .image {
   border: solid 1px #333;
+  padding: 5px;
+  width: 100%;
 }
 
 .post p {
   font-size: 18px;
   line-height: 1.5em;
+}
+
+#contact {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
+  padding: 20px;
+}
+
+#contact button {
+  transition-duration: 0.3s;
+}
+
+#contact button:hover {
+  color: red;
+  padding: 20px 30px;
+  transition-duration: 0.6s;
 }
 
 footer {
