@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: url(http://subtlepatterns.com/patterns/sativa.png);
   font-family: 'Open Sans', Helvetica, sans-serif;
@@ -11,10 +15,6 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 #wrapper {
